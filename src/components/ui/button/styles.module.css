@@ -1,0 +1,8 @@
+.btn {
+    border-radius: 8px;
+    text-align: center;
+    border: none;
+}
+button:hover {
+    cursor: pointer
+}

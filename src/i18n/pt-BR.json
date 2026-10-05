@@ -1,0 +1,5 @@
+{
+"nav": ["Projetos", "Habiliades", "GitHub", "Resumo", "Contato"],
+"hero": ["Desenvolvedor web Full-Stack", "Construo aplicações web do inicio ao fim: Autenticação, API's, banco de dados", "Ver projetos","GitHub"],
+"gs": ["PlayPause", "Gesture Studio é um controlador de mídia por gestos que permite usar a mão para executar ações no computador", "Node", "MediaPipe", "Interage com library", "Link da demo", "","Ver código", "","Caso para estudar", "" ]
+}

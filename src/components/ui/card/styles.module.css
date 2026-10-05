@@ -1,0 +1,195 @@
+.container {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.card {
+    background-color: #FEFEFE;
+    width: 100%;
+    max-width: 930px;
+    height: 462px;
+    display: flex;
+    flex-direction: row;
+    padding: 24px 22.02px;
+    border-radius: 12px;
+    gap: 37px
+}
+
+.cardMain {
+    flex: 1 1 0;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+}
+.imgCard {
+    width: 48%;
+    max-width: 572px;
+    border-radius: 4px;
+    height: auto;
+    align-self: center;
+    object-fit: contain;
+}
+.cardDesc {
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+  margin-top: 29px;
+  color: #40444F;
+  width: 100%;
+  text-align: left;
+  white-space: normal;         /* padrão, garante quebra */
+  overflow-wrap: break-word;   /* quebra palavras grandes */
+  word-break: break-word;      /* extra pra strings sem espaço */
+}
+.cardTitle {
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-size: 30px;
+    color: #171E29
+}
+.btnimg {
+    width: 42px;
+    height: 42px
+}
+.itensTech {
+    list-style: none;
+    display: flex;
+    margin-top: 27px;
+    margin-bottom: 42px;
+    flex-direction: row;
+    gap: 2px;
+}
+.itensTech li {
+    display: flex;
+    width: 82px;
+    height: 43px;
+    background-color: #F1F1F3;
+    margin: auto auto;
+    border-radius: 4px;
+    font-family: "Poppins", sans-serif;
+    color: #494851;
+    font-size: 15px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+}
+.itensTech > li:nth-child(2) {
+  width: 167px;
+}
+.btnDisplay {
+    margin-top: 33px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: 100%;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+.ld {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 154px;
+    flex: 1 1 130px;
+    height: 54px;
+    background-color: #6496B3;
+    color: white;
+    font-size: 20px;
+    border-radius: 4px;
+    font-family: "Poppins";
+}
+.vc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #F0F0F2;
+    font-family: "Poppins";
+    width: 162px;
+    flex: 1 1 130px;
+    height: 52px;
+    font-size: 20px;
+    color: #6E7277;
+    border-radius: 4px;
+}
+.cs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    flex: 1 1 180px;
+    height: 52px;
+    background-color: #F0F0F2;
+    color: #6E7277;
+    font-size: 20px;
+    font-family: "Poppins";
+    border-radius: 4px;
+}
+.checkTech{
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 600;
+    color: #A2A4A6;
+    display: flex ;
+    flex-direction: column;
+    gap: 22px;
+    margin-left: 22px;
+}
+
+@media (max-width: 700px) {
+    .card {
+        height: auto;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 22px;
+        padding: 18px;
+    }
+
+    .imgCard {
+        width: 100%;
+        max-width: none;
+    }
+
+    .cardTitle {
+        font-size: 26px;
+    }
+
+    .itensTech,
+    .btnDisplay {
+        flex-wrap: wrap;
+    }
+
+    .itensTech {
+        margin-bottom: 18px;
+        gap: 8px;
+    }
+
+    .checkTech {
+        margin-left: 0;
+    }
+
+    .btnDisplay {
+        margin-top: 24px;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+    }
+
+    .ld,
+    .vc,
+    .cs {
+        width: 100%;
+        flex: 0 1 auto;
+        max-width: 100%;
+    }
+}
