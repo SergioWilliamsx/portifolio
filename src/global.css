@@ -16,7 +16,7 @@ html, body {
 }
 
 body {
-  background-image: url("/bg1.png");
+  background-image: url("/portifolio/bg1.png");
   background-repeat: repeat-y;
   background-position: center top;
   background-size: 100% auto;
