@@ -4,6 +4,7 @@ import {Projects} from "./components/layout/projects/index"
 import {Github} from "./components/layout/github/index"
 import {SmoothScroll} from "./components/ui/smoothscrool/index"
 import {Footer} from './components/layout/footer/index'
+import {Contact} from './components/layout/contact/index'
 
 export function App() {
   return (
@@ -20,6 +21,7 @@ export function App() {
       <Hero lang="pt-BR"/>
       <Projects lang="pt-BR" />
       <Github lang="pt-BR"/>
+      <Contact/>
       <Footer />
       <SmoothScroll />
     </div>

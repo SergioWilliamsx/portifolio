@@ -49,7 +49,7 @@ async function getProfile(username: string): Promise<User> {
 }
 
 export function Github({ lang: _lang }: { lang: Lang }) {
-  const [user, setUser] = useState<User | null>(null); // null (minúsculo)
+  const [user, setUser] = useState<User | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string>("");
 
@@ -79,35 +79,55 @@ export function Github({ lang: _lang }: { lang: Lang }) {
       {error && <p>{error}</p>}
 
       {user && (
-        <div className={styles.card}>
-          <div className={styles.header}>
-            <img className={styles.avatar} src={user.avatar_url} alt={user.user} />
-            <div className={styles.cardMain}>
+        <article className={styles.card}>
+          <header className={styles.header}>
+            <img
+              className={styles.avatar}
+              src={user.avatar_url}
+              alt={user.user}
+            />
+            <section className={styles.cardMain}>
               <strong>{user.user_name}</strong>
               <div>@{user.user}</div>
               <p>{user.desc}</p>
-            </div>
-            <a className={styles.link}href={user.link} target="_blank" rel="noreferrer"><FaGithub size={15}/>github.com/sergiowilliamsx</a>
-          </div>
+            </section>
+            <a
+              className={styles.link}
+              href={user.link}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGithub size={15} />
+              github.com/sergiowilliamsx
+            </a>
+          </header>
           <div className={styles.loc}>
-            <div><FaLocationDot size={15}/>{user.local}</div>
-            <a href={user.link} target="_blank" rel="noreferrer"><FaGithub size={15}/>github.com/sergiowilliamsx</a>
+            <div>
+              <FaLocationDot size={15} />
+              {user.local}
+            </div>
+            <a href={user.link} target="_blank" rel="noreferrer">
+              <FaGithub size={15} />
+              github.com/sergiowilliamsx
+            </a>
           </div>
-          <div className={styles.stats}>
-            <div className={styles.statscard}>
-                <h1>Repositories {user.repositories}</h1>
-                <p><FaGithub size={32} color="#4B4856"/></p>
-            </div>
-            <div className={styles.statscard}>
-                <h1>Followers</h1>
-                <p>{user.followers}</p>
-            </div>
-            <div className={styles.statscard}>
-                <h1>Following</h1>
-                <p>{user.following}</p>
-            </div>
-          </div>
-        </div>
+          <section className={styles.stats}>
+            <article className={styles.statscard}>
+              <h1>Repositories {user.repositories}</h1>
+              <a href={user.link} target="_blank" rel="noreferrer">
+                <FaGithub size={32} color="#4B4856" />
+              </a>
+            </article>
+            <article className={styles.statscard}>
+              <h1>Followers</h1>
+              <p>{user.followers}</p>
+            </article>
+            <article className={styles.statscard}>
+              <h1>Following</h1>
+              <p>{user.following}</p>
+            </article>
+          </section>
+        </article>
       )}
     </section>
   );

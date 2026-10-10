@@ -1,0 +1,393 @@
+.contactContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    gap: 18px;
+    margin: auto auto;
+    justify-content: center;
+}
+
+.alertStack {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 12px;
+}
+
+.contatMe,
+.reachOut {
+    flex: 1;
+    width: 100%;
+    min-width: 0;
+}
+
+.contatMe {
+    display: flex;
+    flex-direction: column;
+    background: #E4E1F7;
+    border-radius: 10px;
+    align-items: center;
+    padding: 30px;
+    gap: 10px;
+}
+
+.contactHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+
+    h1 {
+        font-family: 'Playfair Display';
+        font-size: 35px;
+        color: #3F4458;
+        line-height: 47px;
+        letter-spacing: 0em;
+        font-weight: 400;
+    }
+
+    p {
+        font-family: 'Playfair Display';
+        font-size: 23px;
+        color: #58536E;
+        line-height: 34px;
+        letter-spacing: 2%;
+        font-weight: 400;
+    }
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 10px;
+    width: 100%;
+    background: #EFEBFA;
+    border: 1px solid #DFDDF6;
+    border-radius: 10px;
+    min-height: 462px;
+    min-width: 406px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 10px;
+    width: 100%;
+}
+
+.contactInputContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 2px;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Inter';
+    border: none;
+    color: #9FA0B7;
+}
+
+.contactInput {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 10px;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Inter';
+    border: none;
+    color: #9FA0B7;
+}
+
+.contactInput:focus {
+    outline: none;
+    border: none;
+}
+
+.inputContainer input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 10px;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Inter';
+    border: 1px solid #E9E4F2;
+    color: #9FA0B7;
+}
+
+.inputContainer input:focus {
+    outline: none;
+    border: 1px solid #E9E4F2;
+}
+
+.inputContainer textarea {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 15px;
+    gap: 10px;
+    width: 100%;
+    height: 150px;
+    background: transparent;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Inter';
+    border: 1px solid #E9E4F2;
+    color: #9FA0B7;
+}
+
+.inputContainer textarea:focus {
+    outline: none;
+    border: 1px solid #E9E4F2;
+}
+
+.emailInputContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 2px;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Inter';
+    border: none;
+    color: #9FA0B7;
+}
+
+.contactButton {
+    display: flex;
+    min-width: 223px;
+    min-height: 51px;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Inter';
+    background: #748FC3;
+    border: 1px solid #7388BB;
+    border-radius: 10px;
+}
+
+.reachOut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 0px;
+    background: #F6EFFC;
+    border: 1px solid #EEE7FA;
+    border-radius: 10px;
+    padding: 30px;
+
+    h1 {
+        font-family: 'Playfair Display';
+        font-size: 30px;
+        color: #3F4458;
+        line-height: 40px;
+        letter-spacing: 0em;
+        font-weight: 400;
+    }
+    p,a{
+        font-family: 'Playfair Display';
+        font-size: 15px;
+        color: #534F60;
+        line-height: 26px;
+        letter-spacing: 5%;
+        font-weight: 400;
+    }
+}
+
+.reachOutHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.reachOutEmailCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13px;
+    width: 100%;
+    height: auto;
+    background: transparent;
+    border-radius: 10px;
+
+    h2 {
+        font-family: 'Inter';
+        font-size: 20px;
+        color: #4C495A;
+        line-height: 26px;
+        letter-spacing: 0em;
+        font-weight: 300;
+    }
+    p {
+        font-size: 15px;
+        color: #4C495A;
+        font-family: 'Inter';
+    }
+}
+
+.reachOutCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.emailHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px;
+    gap: 10px;
+}
+
+.emailContent {
+    display: flex;
+    flex-direction: row;
+    color: #4C495A;
+    width: auto;
+    min-height: 37px;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+}
+
+.emailCopyButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    padding: 5px 20px;
+    height: 100%;
+    background: #EBE5F6;
+    border: 1px solid #DED7E9;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-size: 15px;
+    color: #817A8F;
+}
+
+.CardROHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0px;
+    gap: 13px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    min-height: 37px;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Inter';
+    color: #4C495A;
+    padding: 0px;
+    gap: 10px;
+    h2 {
+        font-family: 'Inter';
+        font-size: 20px;
+        color: #4C495A;
+        line-height: 24px;
+        letter-spacing: 0em;
+        font-weight: 300;
+    }
+}
+
+.contactFooter {
+    width: 100%;
+    min-height: 37px;
+    display: flex;
+    padding: 0px;
+    gap: 11px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footerCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    gap: 10px;
+    width: 50px;
+    height: 50px;
+    background: #F2EBFC;
+    border: 1px solid #E8E1F4;
+    border-radius: 100%;
+}
+
+.footerCard:hover {
+    cursor: pointer;
+    background: #E8E1F4;
+    border: 1px solid #D9D0E7;
+}
+
+@media (max-width: 868px) {
+    .alertStack {
+        right: 12px;
+        bottom: 12px;
+        width: calc(100vw - 24px);
+    }
+
+    .contactContainer {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contatMe {
+        width: 100%;
+    }
+
+    .contactForm {
+        width: 100%;
+        min-width: 100%;
+    }
+
+    .emailHeader {
+        flex-direction: column;
+    }
+
+    .contactButton {
+        width: 100%;
+        min-width: 0;
+    }
+}

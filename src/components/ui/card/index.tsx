@@ -24,13 +24,13 @@ export function Card({imgUrl, title, desc, itens, check, demoUrl, codeurl, cs} :
                         {desc}
                     </h2>
                     <ul className={styles.itensTech}>
-                        {itens.map(text=>{
-                            return <li>{text}</li>
+                        {itens.map((text, index)=>{
+                            return <li key={`${text}-${index}`}>{text}</li>
                         })}
                     </ul>
                     <ul className={styles.checkTech}>
-                        {check.map(text=>{
-                            return <li>{text}</li>
+                        {check.map((text, index)=>{
+                            return <li key={`${text}-${index}`}>{text}</li>
                         })}
                     </ul>
                     <div className={styles.btnDisplay}>

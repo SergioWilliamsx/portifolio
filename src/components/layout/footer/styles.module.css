@@ -1,7 +1,9 @@
 .footer {
   background-image: url('../../../../public/bg2.jpg');
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
+  box-sizing: border-box;
   color: #f3f4f6;
   padding: 1.5rem 1.25rem;
   width: 100vw;
@@ -18,20 +20,23 @@
 
 @media (max-width: 640px) {
   .footer {
-    height: auto;
+    height: 220px;
     min-height: 220px;
+    background-size: cover;
+    background-position: 65% center;
+    background-repeat: no-repeat;
     margin-top: 3rem;
     padding: 2rem 1rem;
     text-align: center;
   }
 
   .footer h1 {
-    font-size: 1.7rem;
+    font-size: clamp(1.35rem, 7vw, 1.7rem);
   }
 }
 .copyright {
     font-family: "Inter";
-    font-size: 20px;
+    font-size: clamp(0.9rem, 4vw, 20px);
     color: #201e25;
     font-weight: 300;
 }
