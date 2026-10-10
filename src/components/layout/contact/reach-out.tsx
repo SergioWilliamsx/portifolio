@@ -41,8 +41,8 @@ export function ReachOut({ onCopyEmail }: ReachOutProps) {
             <FaGithub size={25} />
             <h2>GitHub</h2>
           </div>
-          <a href="https://github.com/wsergio164" className={styles.email} target="_blank" rel="noopener noreferrer">
-            https://github.com/wsergio164
+          <a href="https://github.com/SergioWilliamsx" className={styles.email} target="_blank" rel="noopener noreferrer">
+            https://github.com/SergioWilliamsx
           </a>
         </div>
       </div>
@@ -52,14 +52,16 @@ export function ReachOut({ onCopyEmail }: ReachOutProps) {
             <FaLinkedin size={25} />
             <h2>Linkedin</h2>
           </div>
-          <a href="https://www.linkedin.com/in/wsergio164/" className={styles.email}>https://www.linkedin.com/in/wsergio164/</a>
+          <a href="https://www.linkedin.com/in/sergio-williams-a64a922b7" className={styles.email} target="_blank" rel="noopener noreferrer">
+            https://www.linkedin.com/in/sergio-williams-a64a922b7
+          </a>
         </div>
       </div>
       <footer className={styles.contactFooter}>
-        <a href="https://github.com/wsergio164" className={styles.footerCard} target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/SergioWilliamsx" className={styles.footerCard} target="_blank" rel="noopener noreferrer">
           <FaGithub size={25} color="black" />
         </a>
-        <a href="https://www.linkedin.com/in/wsergio164/" className={styles.footerCard} target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/sergio-williams-a64a922b7" className={styles.footerCard} target="_blank" rel="noopener noreferrer">
           <FaLinkedin size={25} color="#6080B8" />
         </a>
         <a onClick={onCopyEmail} className={styles.footerCard}>
