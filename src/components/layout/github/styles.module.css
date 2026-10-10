@@ -1,10 +1,10 @@
 .container {
-    margin-top: 132px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: auto;
+    padding: 210px 72px 10px 72px;
+    width: 100%;
     height: auto;
 }
 .card {

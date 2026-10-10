@@ -5,6 +5,7 @@ import {Github} from "./components/layout/github/index"
 import {SmoothScroll} from "./components/ui/smoothscrool/index"
 import {Footer} from './components/layout/footer/index'
 import {Contact} from './components/layout/contact/index'
+import {Resume} from './components/layout/resume/index'
 
 export function App() {
   return (
@@ -21,6 +22,7 @@ export function App() {
       <Hero lang="pt-BR"/>
       <Projects lang="pt-BR" />
       <Github lang="pt-BR"/>
+      <Resume />
       <Contact/>
       <Footer />
       <SmoothScroll />

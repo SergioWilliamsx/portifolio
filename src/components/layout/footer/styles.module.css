@@ -48,3 +48,18 @@
     flex-direction: row;
     gap: 10px;
 }
+
+.iconLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border: 2px solid #ffffff;
+    background-color: rgba(32, 30, 37, 0.45);
+    border-radius: 50%;
+}
+
+.iconLink:hover {
+    background-color: rgba(32, 30, 37, 0.65);
+}

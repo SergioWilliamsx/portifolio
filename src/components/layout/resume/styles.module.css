@@ -1,0 +1,163 @@
+.resumeSection {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    gap: 64px;
+    padding: 210px 72px 210px 72px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: auto;
+
+    a {
+        color: black;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 7px 35px;
+        border-radius: 10px;
+        font-size: 26px;
+        font-family: 'playfair display';
+        background-color: #F3ECF8;
+        border: 1px solid #E3DDED;
+        font-weight: 400;
+    }
+}
+
+.resumeHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 37px;
+
+    button {
+        color: black;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 7px 35px;
+        border-radius: 10px;
+        font-size: 26px;
+        font-family: 'playfair display';
+        background-color: #F3ECF8;
+        border: 1px solid #E3DDED;
+    }
+}
+
+.headerText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 19px;
+    h1 {
+        font-size: 40px;
+        color: black;
+        line-height: 40px;
+    }
+    p {
+        font-size: 26px;
+        color: #686475;
+        line-height: 40px;
+    }
+}
+
+.resumeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+}
+
+.resumeCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 37px;
+    padding: 30px 32px;
+    width: 100%;
+    height: auto;
+    background-color: #F2ECF9;
+    border: 1px solid #E5E1F2;
+    border-radius: 10px;
+}
+
+.resumeCardHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: auto;
+    h3 {
+        font-family: 'Playfair Display';
+        font-size: 20px;
+        color: #433E4B;
+        line-height: 27px;
+        font-weight: 300;
+    }
+}
+
+.resumeCardContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
+        width: 100%;
+        height: auto;
+
+        h4 {
+            font-family: 'Inter';
+            font-size: 18px;
+            color: #2D293B;
+            line-height: 24px;
+            font-weight: 500;
+        }
+
+        h4:nth-child(2) {
+            font-family: 'Inter';
+            font-size: 18px;
+            color: black;
+            line-height: 24px;
+            font-weight: 500;
+        }
+    }
+
+    p {
+        font-family: 'Inter';
+        font-size: 18px;
+        color: #5B5466;
+        line-height: 24px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 640px) {
+    .resumeSection {
+        padding: 100px 0px 100px 0px;
+    }
+    .resumeCardContent {
+        header {
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: 5px;
+        }
+    }
+}
