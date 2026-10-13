@@ -1,9 +1,10 @@
 import styles from './styles.module.css';
+import type { ReactNode } from 'react';
 
 interface CardProps {
-    title: String,
-    description: String,
-    icon: () => void
+    title: string,
+    description: string,
+    icon: ReactNode
 }
 
 export function Card({title, description, icon}: CardProps) {
