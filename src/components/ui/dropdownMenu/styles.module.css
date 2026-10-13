@@ -1,0 +1,48 @@
+.trigger {
+    width: min(100%, 260px);
+    padding: 10px 16px;
+    border: 1px solid #E7E7F2;
+    border-radius: 5px;
+    color: #505360;
+    background: #F5F5FD;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.trigger:hover,
+.trigger:focus-visible {
+    color: #fff;
+    background: #8799B2;
+    border-color: #7C8BA6;
+    outline: none;
+}
+
+.positioner {
+    z-index: 10;
+}
+
+.popup {
+    min-width: 220px;
+    padding: 5px;
+    border: 1px solid #E7E7F2;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 8px 24px rgb(48 52 73 / 16%);
+}
+
+.item {
+    padding: 9px 12px;
+    border-radius: 3px;
+    color: #505360;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+}
+
+.item[data-highlighted] {
+    color: #fff;
+    background: #8799B2;
+}

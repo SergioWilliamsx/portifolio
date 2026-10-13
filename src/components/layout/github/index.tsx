@@ -97,7 +97,7 @@ export function Github({ lang: _lang }: { lang: Lang }) {
               target="_blank"
               rel="noreferrer"
             >
-              <FaGithub size={15} />
+              <FaGithub className={styles.githubIcon} size={15} />
               github.com/sergiowilliamsx
             </a>
           </header>

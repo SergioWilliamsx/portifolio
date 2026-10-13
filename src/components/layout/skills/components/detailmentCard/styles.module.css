@@ -1,0 +1,47 @@
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #F8F7FE;
+    border-radius: 5px;
+    border: 1px solid #F2F0FA;
+    gap: 27px;
+    width: 444px;
+    height: 169px;
+    padding: 0px 0px 0px 39px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    h1{
+        font-family: "Inter";
+        font-size: 20;
+        line-height: 15px;
+        font-weight: 400;
+        color: #3A3D4B;
+    }
+
+    p{
+        font-family: "Inter";
+        font-size: 20;
+        line-height: 25px;
+        font-weight: 300;
+        color: #61637A;  
+    }
+}
+
+@media (max-width: 700px) {
+    .content {
+        gap: 8px;
+        h1 {
+            font-size: 16px
+        }
+        p{
+            font-size: 16px
+        }
+    }
+}

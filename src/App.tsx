@@ -6,6 +6,7 @@ import {SmoothScroll} from "./components/ui/smoothscrool/index"
 import {Footer} from './components/layout/footer/index'
 import {Contact} from './components/layout/contact/index'
 import {Resume} from './components/layout/resume/index'
+import {Skils} from './components/layout/skills/index'
 
 export function App() {
   return (
@@ -21,6 +22,7 @@ export function App() {
       <Navbar lang="pt-BR" />
       <Hero lang="pt-BR"/>
       <Projects lang="pt-BR" />
+      <Skils />
       <Github lang="pt-BR"/>
       <Resume />
       <Contact/>

@@ -1,0 +1,27 @@
+.CardSelectionSkills {
+    width: auto;
+    height: auto;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: #505360;
+    font-family: 'Inter';
+    font-weight: 400;
+    background-color: #F5F5FD;
+    border: 1px solid #E7E7F2; 
+}
+
+.CardSelectionSkills:hover {
+    width: auto;
+    height: auto;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #8799B2;
+    border: 1px solid #7C8BA6; 
+}
+
+.selected {
+    color: #fff;
+    background-color: #8799B2;
+    border-color: #7C8BA6;
+}
