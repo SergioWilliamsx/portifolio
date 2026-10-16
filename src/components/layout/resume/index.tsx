@@ -14,7 +14,7 @@ export function Resume({lang}: {lang: Lang}) {
                     <p>{labels[1]}</p>
                 </div>
                 <a
-                    href="/portifolio/documents/resume.pdf"
+                    href={ lang == "en" ? "/portifolio/documents/resume.pdf" : "/portifolio/documents/resume ptbr.pdf"}
                     download
                     >
                     <HiOutlineDownload size={20} />
