@@ -1,5 +1,5 @@
 {
-"nav": ["Projetos", "Habiliades", "GitHub", "Resumo", "Contato"],
+"nav": ["Projetos", "Habiliades", "GitHub", "Currículo", "Contato"],
 "hero": ["Desenvolvedor web Full-Stack", "Construo aplicações web do inicio ao fim: Autenticação, API's, banco de dados", "Ver projetos","GitHub"],
 "gs": ["PlayPause", "Gesture Studio é um controlador de mídia por gestos que permite usar a mão para executar ações no computador", "Node", "MediaPipe", "Interage com library", "Link da demo", "https://github.com/SergioWilliamsx/gesture-studio/releases/tag/2.0.0","Ver código", "https://github.com/SergioWilliamsx/gesture-studio","Caso para estudar", "" ],
 "resume": ["Currículo", "Baixe meu currículo como um pdf.", "Baixar pdf", "Educação", "Universidade Estadual da Paraíba", "2026 - presente", "Bacharelado de ciência em Ciência da Computação", "Me contate"],
