@@ -1,7 +1,7 @@
 {
 "nav": ["Projects", "Skills", "GitHub", "Resume", "Contact"],
 "hero": ["Full-Stack Web Developer", "I build web apps end-to-end: UI,APIs, auth, database", "View Projects", "GitHub"],
-"gs": ["PlayPause", "Gesture Studio is a gesture media controller that lets you use your hand to control actions on your computer", "Node", "MediaPipe", "Interacts with library", "Demo link", "","View code","","Study case", "" ],
+"gs": ["GestureStudio", "Gesture Studio is a gesture media controller that lets you use your hand to control actions on your computer", "Node", "MediaPipe", "Interacts with library", "Demo link", "","View code","","Study case", "" ],
 "resume": ["Resume", "Download my resume as a PDF.", "Download PDF", "Education", "State University of Paraíba", "2026 - present", "Bachelor of science in Computer Science", "Contact me"],
 "github": ["Repositories", "Followers", "Following"],
 "contact": {
