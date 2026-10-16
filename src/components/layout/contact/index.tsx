@@ -6,8 +6,10 @@ import { ContactAlerts } from "./contact-alerts";
 import { ContactForm } from "./contact-form";
 import { ReachOut } from "./reach-out";
 import type { AlertPayload, AlertMessage } from "./types";
+import { dict, type Lang } from "../../../i18n";
 
-export function Contact() {
+export function Contact({ lang }: { lang: Lang }) {
+  const labels = dict[lang].contact;
   const formRef = useRef<HTMLFormElement>(null);
   const [isSending, setIsSending] = useState(false);
   const [formMessage, setFormMessage] = useState("");
@@ -49,14 +51,14 @@ export function Contact() {
       await sendEmail(formRef.current);
       formRef.current.reset();
       showAlert({
-        title: "Email enviado",
-        description: "Sua mensagem foi enviada com sucesso.",
+        title: labels.alerts.sentTitle,
+        description: labels.alerts.sentDescription,
       });
     } catch (error) {
       console.error("Falha ao enviar mensagem:", error);
       showAlert({
-        title: "Erro ao enviar email",
-        description: "Não foi possível enviar a mensagem.",
+        title: labels.alerts.sendErrorTitle,
+        description: labels.alerts.sendErrorDescription,
       });
     } finally {
       setIsSending(false);
@@ -67,18 +69,18 @@ export function Contact() {
     const email = "wsergio164@gmail.com";
 
     if (!navigator.clipboard) {
-      window.alert("Não foi possível copiar o email neste navegador.");
+      window.alert(labels.alerts.clipboardError);
       return;
     }
 
     try {
       await navigator.clipboard.writeText(email);
       showAlert({
-        title: "Email copiado",
+        title: labels.alerts.copiedTitle,
         description: email,
       });
     } catch {
-      window.alert("Não foi possível copiar o email.");
+      window.alert(labels.alerts.clipboardError);
     }
   };
 
@@ -90,8 +92,9 @@ export function Contact() {
         isSending={isSending}
         formMessage={formMessage}
         onSubmit={handleSubmit}
+        labels={labels}
       />
-      <ReachOut onCopyEmail={copyEmail} />
+      <ReachOut onCopyEmail={copyEmail} labels={labels} />
     </section>
   );
 }

@@ -12,8 +12,8 @@ export function Hero({ lang }: { lang: Lang }) {
             <h3 className={styles.tech}>Node.js •React•MongoDB•Express•NextJS•VueJS</h3>
             <h2 className={styles.wib}>{labels[1]}</h2>
             <div className={styles.btnDisplay}>
-                <Button name={labels[2]} color="#161C25" width={203} height={67} size={16} weight={700} family="Playfair Display" bg="#FBFBFD"/>
-                <Button name={labels[3]} color="#161C25" width={149} height={67} size={16} weight={700} family="Playfair Display" bg="#D5D9E4"/>
+                <Button href="#GitHub" name={labels[2]} color="#161C25" width={203} height={67} size={16} weight={700} family="Playfair Display" bg="#FBFBFD"/>
+                <Button href="#Projects" name={labels[3]} color="#161C25" width={149} height={67} size={16} weight={700} family="Playfair Display" bg="#D5D9E4"/>
             </div>
         </div>
     )

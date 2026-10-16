@@ -34,8 +34,8 @@ export function Card({imgUrl, title, desc, itens, check, demoUrl, codeurl, cs} :
                         })}
                     </ul>
                     <div className={styles.btnDisplay}>
-                        <a className={styles.ld} href={demoUrl[0]}>{demoUrl[1]}</a>
-                        <a className={styles.vc} href={codeurl[0]}>{codeurl[1]}</a>
+                        <a className={styles.ld} href={demoUrl[0]} target="_blank">{demoUrl[1]}</a>
+                        <a className={styles.vc} href={codeurl[0]} target="_blank">{codeurl[1]}</a>
                         <a className={styles.cs}href={cs[0]}><img className={styles.btnimg} src={icon} alt="cs" />{cs[1]}</a>
                     </div>
                 </div>

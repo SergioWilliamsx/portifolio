@@ -3,7 +3,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 210px 72px 10px 72px;
+    margin-top: 210px;
+    padding: 10px 72px 10px 72px;
     width: 100%;
     height: auto;
 }

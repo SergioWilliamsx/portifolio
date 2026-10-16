@@ -9,11 +9,13 @@ type Props = {
   weight: number;
   family: string;
   bg: string;
+  href: string;
 };
 
-export function Button({ name, color, width, height, size, weight, family, bg}: Props) {
+export function Button({ name, color, width, height, size, weight, family, bg, href}: Props) {
   return (
-    <button
+    <a
+    href={href}
       className={styles.btn}
       style={{
         color,
@@ -26,6 +28,6 @@ export function Button({ name, color, width, height, size, weight, family, bg}: 
       }}
     >
       {name}
-    </button>
+    </a>
   );
 }

@@ -15,6 +15,7 @@
     display: flex;
     list-style: none;
     text-decoration: none;
+    align-items: center;
 }
 .navList li {
     padding: 0px 9px;

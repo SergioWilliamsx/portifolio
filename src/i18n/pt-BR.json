@@ -1,5 +1,39 @@
 {
 "nav": ["Projetos", "Habiliades", "GitHub", "Resumo", "Contato"],
 "hero": ["Desenvolvedor web Full-Stack", "Construo aplicações web do inicio ao fim: Autenticação, API's, banco de dados", "Ver projetos","GitHub"],
-"gs": ["PlayPause", "Gesture Studio é um controlador de mídia por gestos que permite usar a mão para executar ações no computador", "Node", "MediaPipe", "Interage com library", "Link da demo", "","Ver código", "","Caso para estudar", "" ]
+"gs": ["PlayPause", "Gesture Studio é um controlador de mídia por gestos que permite usar a mão para executar ações no computador", "Node", "MediaPipe", "Interage com library", "Link da demo", "https://github.com/SergioWilliamsx/gesture-studio/releases/tag/2.0.0","Ver código", "https://github.com/SergioWilliamsx/gesture-studio","Caso para estudar", "" ],
+"resume": ["Currículo", "Baixe meu currículo como um pdf.", "Baixar pdf", "Educação", "Universidade Estadual da Paraíba", "2026 - presente", "Bacharelado de ciência em Ciência da Computação", "Me contate"],
+"github": ["Repositórios", "Seguidores", "Seguindo"],
+"contact": {
+    "formTitle": "Contato",
+    "formDescription": ["Vamos trabalhar juntos,", "entre em contato comigo."],
+    "namePlaceholder": "Nome",
+    "emailPlaceholder": "Email",
+    "subjectPlaceholder": "Assunto",
+    "messagePlaceholder": "Mensagem",
+    "sendButton": "Enviar mensagem",
+    "sendingButton": "Enviando...",
+    "reachOutTitle": "Entre em contato",
+    "reachOutDescription": ["Estou aberto a oportunidades de trabalho,", "colaborações e networking.", "Sinta-se à vontade para falar comigo!"],
+    "emailTitle": "Email",
+    "copyEmail": "Copiar email",
+    "githubTitle": "GitHub",
+    "linkedinTitle": "LinkedIn",
+    "alerts": {
+        "sentTitle": "Email enviado",
+        "sentDescription": "Sua mensagem foi enviada com sucesso.",
+        "sendErrorTitle": "Erro ao enviar email",
+        "sendErrorDescription": "Não foi possível enviar a mensagem.",
+        "copiedTitle": "Email copiado",
+        "clipboardError": "Não foi possível copiar o email."
+    }
+},
+"skills": {
+    "pattern": ["Habilidades", "No que estou focando"],
+    "Nodejs": ["APIs", "Desenvolvimento de endpoints REST bem estruturados, com responsabilidades claras, validação de entradas e respostas consistentes para facilitar a integração entre diferentes clientes e serviços.", "Servidor", "Execução de JavaScript no back-end para criar serviços web, processar regras de negócio e conectar aplicações a bancos de dados e APIs externas.", "Assíncrono", "Uso do modelo não bloqueante do Node.js para processar operações de entrada e saída sem interromper o atendimento de outras requisições.", "Ecossistema", "Seleção e integração de pacotes do npm, ferramentas de desenvolvimento e bibliotecas que aceleram a construção de aplicações confiáveis."],
+    "sql": ["Modelagem", "Planejamento de tabelas, colunas e relacionamentos para representar regras de negócio com clareza, reduzir duplicidade e facilitar a evolução do banco de dados.", "Consultas", "Construção de consultas legíveis e eficientes para filtrar, combinar, agrupar e transformar informações de acordo com as necessidades da aplicação.", "Relacionamentos", "Uso de chaves primárias, chaves estrangeiras e joins para conectar registros com consistência e recuperar dados relacionados com precisão.", "Integridade", "Aplicação de restrições, tipos adequados e regras de validação para impedir dados inválidos e preservar a confiabilidade das informações."],
+    "python": ["Automação", "Criação de scripts para executar tarefas repetitivas com mais rapidez, reduzir erros manuais e transformar rotinas operacionais em processos reproduzíveis.", "APIs", "Construção de serviços e integrações em Python, com organização de rotas, tratamento de requisições e comunicação clara entre sistemas.", "Clareza", "Uso de uma sintaxe expressiva e de responsabilidades bem definidas para transformar problemas complexos em soluções simples de entender.", "Manutenção", "Estruturação de módulos, funções e dependências de forma organizada para facilitar testes, correções e evolução contínua do projeto."],
+    "React": ["Componentes", "Criação de componentes reutilizáveis, isolados e com responsabilidades bem definidas para organizar interfaces grandes e reduzir duplicação de código.", "Interação", "Desenvolvimento de experiências dinâmicas com eventos, formulários e atualização previsível da interface conforme as ações do usuário.", "Hooks", "Uso de hooks para controlar estado, efeitos e lógica compartilhada sem abandonar a composição declarativa dos componentes.", "Usabilidade", "Construção de interfaces responsivas, acessíveis e intuitivas, com atenção à navegação, ao feedback visual e à adaptação para diferentes telas."],
+    "Flutter": ["Widgets", "Composição de telas a partir de widgets reutilizáveis, permitindo organizar a interface em partes pequenas, previsíveis e fáceis de personalizar.", "Multiplataforma", "Desenvolvimento de aplicações para diferentes plataformas usando uma base de código compartilhada, reduzindo retrabalho sem perder consistência visual.", "Responsividade", "Adaptação de layouts, espaçamentos e componentes para diferentes tamanhos e orientações de tela, mantendo uma experiência confortável em cada dispositivo.", "Dart", "Uso de tipagem, recursos assíncronos e organização da linguagem Dart para criar aplicações mais previsíveis, legíveis e fáceis de manter."]
+}
 }

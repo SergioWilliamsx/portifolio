@@ -3,7 +3,7 @@ import "../../../global.css"
 import { FaLocationDot } from "react-icons/fa6";
 import { useEffect, useState } from "react";
 import { FaGithub } from "react-icons/fa";
-import { type Lang } from "../../../i18n/index.ts";
+import { dict, type Lang } from "../../../i18n/index.ts"
 
 type GithubApiUser = {
   login: string;
@@ -48,10 +48,11 @@ async function getProfile(username: string): Promise<User> {
   };
 }
 
-export function Github({ lang: _lang }: { lang: Lang }) {
+export function Github({ lang }: { lang: Lang }) {
   const [user, setUser] = useState<User | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string>("");
+  const labels = dict[lang].github;
 
   useEffect(() => {
     const username = "SergioWilliamsx"; // ou vindo de input
@@ -113,17 +114,17 @@ export function Github({ lang: _lang }: { lang: Lang }) {
           </div>
           <section className={styles.stats}>
             <article className={styles.statscard}>
-              <h1>Repositories {user.repositories}</h1>
+              <h1>{labels[0]} {user.repositories}</h1>
               <a href={user.link} target="_blank" rel="noreferrer">
                 <FaGithub size={32} color="#4B4856" />
               </a>
             </article>
             <article className={styles.statscard}>
-              <h1>Followers</h1>
+              <h1>{labels[1]}</h1>
               <p>{user.followers}</p>
             </article>
             <article className={styles.statscard}>
-              <h1>Following</h1>
+              <h1>{labels[2]}</h1>
               <p>{user.following}</p>
             </article>
           </section>

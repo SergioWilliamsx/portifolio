@@ -3,11 +3,23 @@ import { FaUser } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import styles from "./styles.module.css";
 
+type ContactLabels = {
+  formTitle: string;
+  formDescription: string[];
+  namePlaceholder: string;
+  emailPlaceholder: string;
+  subjectPlaceholder: string;
+  messagePlaceholder: string;
+  sendButton: string;
+  sendingButton: string;
+};
+
 type ContactFormProps = {
   formRef: RefObject<HTMLFormElement | null>;
   isSending: boolean;
   formMessage: string;
   onSubmit: (event: FormEvent<HTMLFormElement>) => void;
+  labels: ContactLabels;
 };
 
 export function ContactForm({
@@ -15,15 +27,16 @@ export function ContactForm({
   isSending,
   formMessage,
   onSubmit,
+  labels,
 }: ContactFormProps) {
   return (
     <section className={styles.contatMe}>
       <header className={styles.contactHeader}>
-        <h1>Contact</h1>
+        <h1>{labels.formTitle}</h1>
         <p>
-          Let’s work together,
+          {labels.formDescription[0]}
           <br />
-          get in touch with me.
+          {labels.formDescription[1]}
         </p>
       </header>
       <form ref={formRef} className={styles.contactForm} onSubmit={onSubmit}>
@@ -33,7 +46,7 @@ export function ContactForm({
             className={styles.contactInput}
             type="text"
             name="name"
-            placeholder="Nome"
+            placeholder={labels.namePlaceholder}
             required
           />
         </div>
@@ -42,13 +55,13 @@ export function ContactForm({
             <label>
               <MdEmail size={25} />
             </label>
-            <input type="email" name="email" placeholder="Email" required />
+            <input type="email" name="email" placeholder={labels.emailPlaceholder} required />
           </div>
-          <input type="text" name="subject" placeholder="Subject" required />
-          <textarea name="message" placeholder="Message" required />
+          <input type="text" name="subject" placeholder={labels.subjectPlaceholder} required />
+          <textarea name="message" placeholder={labels.messagePlaceholder} required />
         </div>
         <button className={styles.contactButton} type="submit" disabled={isSending}>
-          {isSending ? "Sending..." : "Send message"}
+          {isSending ? labels.sendingButton : labels.sendButton}
         </button>
         {formMessage && <p role="status">{formMessage}</p>}
       </form>

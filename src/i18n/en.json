@@ -1,5 +1,39 @@
 {
 "nav": ["Projects", "Skills", "GitHub", "Resume", "Contact"],
-"hero": ["Full-Stack Web Developer", "I build web apps end-to-end: UI,APIs, auth, database", "View Projects"],
-"gs": ["PlayPause", "Gesture Studio é um controlador de mídia por gestos que permite usar a mão para executar ações no computador", "Node", "MediaPipe", "Interage com library", "Link da demo", "","Ver código", "","Caso para estudar", "" ]
+"hero": ["Full-Stack Web Developer", "I build web apps end-to-end: UI,APIs, auth, database", "View Projects", "GitHub"],
+"gs": ["PlayPause", "Gesture Studio is a gesture media controller that lets you use your hand to control actions on your computer", "Node", "MediaPipe", "Interacts with library", "Demo link", "","View code","","Study case", "" ],
+"resume": ["Resume", "Download my resume as a PDF.", "Download PDF", "Education", "State University of Paraíba", "2026 - present", "Bachelor of Computer Science", "Contact me"],
+"github": ["Repositories", "Followers", "Following"],
+"contact": {
+    "formTitle": "Contact",
+    "formDescription": ["Let’s work together,", "get in touch with me."],
+    "namePlaceholder": "Name",
+    "emailPlaceholder": "Email",
+    "subjectPlaceholder": "Subject",
+    "messagePlaceholder": "Message",
+    "sendButton": "Send message",
+    "sendingButton": "Sending...",
+    "reachOutTitle": "Reach out",
+    "reachOutDescription": ["I’m open to job opportunities,", "collaborations, and networking.", "Feel free to reach out anytime!"],
+    "emailTitle": "Email",
+    "copyEmail": "Copy email",
+    "githubTitle": "GitHub",
+    "linkedinTitle": "LinkedIn",
+    "alerts": {
+        "sentTitle": "Email sent",
+        "sentDescription": "Your message was sent successfully.",
+        "sendErrorTitle": "Error sending email",
+        "sendErrorDescription": "The message could not be sent.",
+        "copiedTitle": "Email copied",
+        "clipboardError": "The email could not be copied."
+    }
+},
+"skills": {
+    "pattern": ["Skills", "Recent focus"],
+    "Nodejs": ["APIs", "Developing well-structured REST endpoints with clear responsibilities, input validation, and consistent responses to simplify integration between clients and services.", "Server", "Running JavaScript on the back end to build web services, process business rules, and connect applications to databases and external APIs.", "Async", "Using Node.js non-blocking behavior to process input and output operations without stopping other requests from being served.", "Ecosystem", "Selecting and integrating npm packages, development tools, and libraries that accelerate the delivery of reliable applications."],
+    "sql": ["Modeling", "Planning tables, columns, and relationships to represent business rules clearly, reduce duplication, and support future database changes.", "Queries", "Writing readable and efficient queries to filter, combine, group, and transform information according to application requirements.", "Relationships", "Using primary keys, foreign keys, and joins to connect records consistently and retrieve related data accurately.", "Integrity", "Applying constraints, suitable data types, and validation rules to prevent invalid records and preserve information reliability."],
+    "python": ["Automation", "Creating scripts that execute repetitive tasks faster, reduce manual errors, and turn operational routines into reproducible processes.", "APIs", "Building Python services and integrations with organized routes, request handling, and clear communication between systems.", "Clarity", "Using expressive syntax and well-defined responsibilities to turn complex problems into solutions that are easy to understand.", "Maintainability", "Structuring modules, functions, and dependencies to make testing, fixes, and continuous project evolution easier."],
+    "React": ["Components", "Creating reusable, isolated components with clear responsibilities to organize large interfaces and reduce code duplication.", "Interaction", "Developing dynamic experiences with events, forms, and predictable interface updates based on user actions.", "Hooks", "Using hooks to manage state, effects, and shared logic while preserving declarative component composition.", "Usability", "Building responsive, accessible, and intuitive interfaces with attention to navigation, visual feedback, and different screen sizes."],
+    "Flutter": ["Widgets", "Composing screens from reusable widgets to organize the interface into small, predictable, and customizable pieces.", "Multiplatform", "Developing applications for multiple platforms from a shared codebase, reducing rework while preserving visual consistency.", "Responsiveness", "Adapting layouts, spacing, and components to different screen sizes and orientations for a comfortable experience on each device.", "Dart", "Using Dart typing, asynchronous features, and language patterns to create applications that are predictable, readable, and maintainable."]
+}
 }

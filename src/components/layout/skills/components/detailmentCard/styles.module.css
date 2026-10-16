@@ -8,8 +8,8 @@
     border: 1px solid #F2F0FA;
     gap: 27px;
     width: 444px;
-    height: 169px;
-    padding: 0px 0px 0px 39px;
+    min-height: 169px;
+    padding: 29px;
 }
 
 .content {
@@ -20,7 +20,7 @@
     h1{
         font-family: "Inter";
         font-size: 20;
-        line-height: 15px;
+        line-height: 25px;
         font-weight: 400;
         color: #3A3D4B;
     }
@@ -35,6 +35,10 @@
 }
 
 @media (max-width: 700px) {
+    .cardContainer {
+        flex-wrap: wrap;
+        width: auto;
+    }
     .content {
         gap: 8px;
         h1 {

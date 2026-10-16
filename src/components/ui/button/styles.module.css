@@ -1,7 +1,10 @@
 .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 8px;
-    text-align: center;
     border: none;
+    font-family: 'Playfair Display';
 }
 button:hover {
     cursor: pointer

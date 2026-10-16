@@ -1,9 +1,11 @@
 import styles from "./styles.module.css";
 import logo from '../../../../public/logo.svg'
+import "../../../global.css"
 import { dict, type Lang } from "../../../i18n/index.ts"
+import {LanguageSelector} from '../../ui/languageSelector/index.tsx'
 import { useState } from "react";
 
-export function Navbar({ lang }: { lang: Lang }) {
+export function Navbar({ lang, onLanguageChange }: { lang: Lang; onLanguageChange: (lang: Lang) => void }) {
     const labels = dict[lang].nav;
     const ids = dict["en"].nav
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -28,6 +30,7 @@ export function Navbar({ lang }: { lang: Lang }) {
                         <a href={`#${ids[i]}`} onClick={() => setIsMenuOpen(false)}>{text}</a>
                     </li>
                 ))}
+                <LanguageSelector value={lang} onChange={onLanguageChange} />
             </ul>
         </div>
     )

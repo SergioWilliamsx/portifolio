@@ -11,7 +11,7 @@
     background-color: #FEFEFE;
     width: 100%;
     max-width: 930px;
-    height: 462px;
+    min-height: 462px;
     display: flex;
     flex-direction: row;
     padding: 24px 22.02px;

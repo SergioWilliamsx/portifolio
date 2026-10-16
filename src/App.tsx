@@ -3,12 +3,15 @@ import {Navbar} from "./components/layout/navbar/index"
 import {Projects} from "./components/layout/projects/index"
 import {Github} from "./components/layout/github/index"
 import {SmoothScroll} from "./components/ui/smoothscrool/index"
+import type { Lang } from "./i18n";
 import {Footer} from './components/layout/footer/index'
 import {Contact} from './components/layout/contact/index'
 import {Resume} from './components/layout/resume/index'
 import {Skils} from './components/layout/skills/index'
 
 export function App() {
+  const [lang, setLang] = useState<Lang>("pt-BR");
+
   return (
     <div
       style={{
@@ -19,15 +22,16 @@ export function App() {
         boxSizing: "border-box",
       }}
     >
-      <Navbar lang="pt-BR" />
-      <Hero lang="pt-BR"/>
-      <Projects lang="pt-BR" />
-      <Skils />
-      <Github lang="pt-BR"/>
-      <Resume />
-      <Contact/>
+      <Navbar lang={lang} onLanguageChange={setLang} />
+      <Hero lang={lang}/>
+      <Projects lang={lang} />
+      <Skils lang={lang} />
+      <Github lang={lang}/>
+      <Resume lang={lang}/>
+      <Contact lang={lang}/>
       <Footer />
       <SmoothScroll />
     </div>
   )
 }
+import { useState } from "react";
