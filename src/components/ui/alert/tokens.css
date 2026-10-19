@@ -1,0 +1,15 @@
+[data-theme="light"] {
+    --alert-background-color: #171717;
+    --alert-border-color: #303030;
+    --alert-icon-color: #fff;
+    --alert-title-color: #FFFFFF;
+    --alert-description-color: #828182;
+}
+
+[data-theme="dark"] {
+    --alert-background-color: #2B343D;
+    --alert-border-color: #53616D;
+    --alert-icon-color: #BCEBD2;
+    --alert-title-color: #F1F4F6;
+    --alert-description-color: #D4DBE1;
+}

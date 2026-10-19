@@ -1,0 +1,51 @@
+[data-theme="light"] {
+	--contact-me-background-color: #E4E1F7;
+	--contact-heading-color: #3F4458;
+	--contact-description-color: #58536E;
+	--contact-form-background-color: #EFEBFA;
+	--contact-form-border-color: #DFDDF6;
+	--contact-input-background-color: transparent;
+	--contact-input-color: #9FA0B7;
+	--contact-input-border-color: #E9E4F2;
+	--contact-button-color: #FFFFFF;
+	--contact-button-background-color: #748FC3;
+	--contact-button-border-color: #7388BB;
+	--reach-out-background-color: #F6EFFC;
+	--reach-out-border-color: #EEE7FA;
+	--reach-out-text-color: #534F60;
+	--reach-out-content-color: #4C495A;
+	--email-copy-background-color: #EBE5F6;
+	--email-copy-border-color: #DED7E9;
+	--email-copy-color: #817A8F;
+	--linkedin-icon-color: #6080B8;
+	--contact-footer-background-color: #F2EBFC;
+	--contact-footer-border-color: #E8E1F4;
+	--contact-footer-hover-background-color: #E8E1F4;
+	--contact-footer-hover-border-color: #D9D0E7;
+}
+
+[data-theme="dark"] {
+	--contact-me-background-color: #2B343D;
+	--contact-heading-color: #F1F4F6;
+	--contact-description-color: #D4DBE1;
+	--contact-form-background-color: #303B45;
+	--contact-form-border-color: #53616D;
+	--contact-input-background-color: transparent;
+	--contact-input-color: #D4DBE1;
+	--contact-input-border-color: #53616D;
+	--contact-button-color: #17212A;
+	--contact-button-background-color: #78A9C5;
+	--contact-button-border-color: #A6C9DD;
+	--reach-out-background-color: #35414C;
+	--reach-out-border-color: #53616D;
+	--reach-out-text-color: #D4DBE1;
+	--reach-out-content-color: #F1F4F6;
+	--email-copy-background-color: #3C4A55;
+	--email-copy-border-color: #53616D;
+	--email-copy-color: #D4DBE1;
+	--linkedin-icon-color: #A6C9DD;
+	--contact-footer-background-color: #35414C;
+	--contact-footer-border-color: #53616D;
+	--contact-footer-hover-background-color: #3C4A55;
+	--contact-footer-hover-border-color: #A6C9DD;
+}

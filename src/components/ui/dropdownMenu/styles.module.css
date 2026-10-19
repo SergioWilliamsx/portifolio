@@ -1,10 +1,12 @@
+@import "./tokens.css";
+
 .trigger {
     width: min(100%, 260px);
     padding: 10px 16px;
-    border: 1px solid #E7E7F2;
+    border: 1px solid var(--dropdown-selector-border-color);
     border-radius: 5px;
-    color: #505360;
-    background: #F5F5FD;
+    color: var(--dropdown-selector-color);
+    background: var(--dropdown-selector-background-color);
     font-family: 'Inter', sans-serif;
     font-size: 15px;
     text-align: left;
@@ -13,9 +15,9 @@
 
 .trigger:hover,
 .trigger:focus-visible {
-    color: #fff;
-    background: #8799B2;
-    border-color: #7C8BA6;
+    color: var(--dropdown-active-color);
+    background: var(--dropdown-active-background-color);
+    border-color: var(--dropdown-active-border-color);
     outline: none;
 }
 
@@ -26,16 +28,16 @@
 .popup {
     min-width: 220px;
     padding: 5px;
-    border: 1px solid #E7E7F2;
+    border: 1px solid var(--dropdown-selector-border-color);
     border-radius: 5px;
-    background: #fff;
-    box-shadow: 0 8px 24px rgb(48 52 73 / 16%);
+    background: var(--dropdown-background-color);
+    box-shadow: 0 8px 24px var(--dropdown-shadow-color);
 }
 
 .item {
     padding: 9px 12px;
     border-radius: 3px;
-    color: #505360;
+    color: var(--dropdown-selector-color);
     font-family: 'Inter', sans-serif;
     font-size: 15px;
     cursor: pointer;
@@ -43,6 +45,6 @@
 }
 
 .item[data-highlighted] {
-    color: #fff;
-    background: #8799B2;
+    color: var(--dropdown-active-color);
+    background: var(--dropdown-active-background-color);
 }

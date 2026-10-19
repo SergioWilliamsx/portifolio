@@ -1,11 +1,13 @@
+@import "../../styles/tokens.css";
+
 .cardContainer {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    background-color: #F8F7FE;
+    background-color: var(--skills-detail-background-color);
     border-radius: 5px;
-    border: 1px solid #F2F0FA;
+    border: 1px solid var(--skills-detail-border-color);
     gap: 27px;
     width: 444px;
     min-height: 169px;
@@ -22,7 +24,7 @@
         font-size: 20;
         line-height: 25px;
         font-weight: 400;
-        color: #3A3D4B;
+        color: var(--skills-detail-heading-color);
     }
 
     p{
@@ -30,7 +32,7 @@
         font-size: 20;
         line-height: 25px;
         font-weight: 300;
-        color: #61637A;  
+        color: var(--skills-detail-description-color);
     }
 }
 

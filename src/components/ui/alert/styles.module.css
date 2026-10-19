@@ -1,3 +1,5 @@
+@import "./tokens.css";
+
 .alert {
     display: flex;
     flex-direction: row;
@@ -8,9 +10,9 @@
     height: auto;
     gap: 10px;
     padding: 12px 14px;
-    background: #171717;
+    background: var(--alert-background-color);
     border-radius: 9px;
-    border: 1px solid #303030;
+    border: 1px solid var(--alert-border-color);
     opacity: 1;
     transform: translateX(0);
     transition: opacity 500ms ease, transform 500ms ease;
@@ -26,6 +28,7 @@
 .alert > svg {
     flex: 0 0 auto;
     margin-top: 1px;
+    color: var(--alert-icon-color);
 }
 
 .alertContent {
@@ -43,12 +46,12 @@
         font-size: 14px;
         line-height: 18px;
         font-weight: 600;
-        color: #FFFFFF;
+        color: var(--alert-title-color);
     }
 
     p {
         margin: 0;
-        color: #828182;
+        color: var(--alert-description-color);
         font-family: 'Inter';
         font-size: 14px;
         line-height: 20px;

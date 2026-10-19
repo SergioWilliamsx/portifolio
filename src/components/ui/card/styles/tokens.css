@@ -1,0 +1,25 @@
+[data-theme="light"] {
+	--card-background-color: #FEFEFE;
+	--card-description-color: #40444F;
+	--card-title-color: #171E29;
+	--card-tech-background-color: #F1F1F3;
+	--card-tech-color: #494851;
+	--card-demo-background-color: #6496B3;
+	--card-demo-color: white;
+	--card-secondary-background-color: #F0F0F2;
+	--card-secondary-color: #6E7277;
+	--card-check-color: #A2A4A6;
+}
+
+[data-theme="dark"] {
+	--card-background-color: #2B343D;
+	--card-description-color: #D4DBE1;
+	--card-title-color: #F1F4F6;
+	--card-tech-background-color: #303B45;
+	--card-tech-color: #D9E0E5;
+	--card-demo-background-color: #78A9C5;
+	--card-demo-color: #17212A;
+	--card-secondary-background-color: #35414C;
+	--card-secondary-color: #D0D8DE;
+	--card-check-color: #B9C4CD;
+}

@@ -12,14 +12,14 @@
 }
 
 [data-theme="dark"] {
-	--github-card-background-color: #F1EEFD;
-	--github-location-color: #7E7D8C;
-	--github-name-color: #3B3A46;
-	--github-username-color: #797584;
-	--github-description-color: rgb(50, 49, 54);
-	--github-link-background-color: #EBE7F3;
-	--github-link-border-color: #F1EDF7;
-	--github-stats-title-color: #3E3946;
-	--github-stats-value-color: black;
-	--github-icon-color: #4B4856;
+	--github-card-background-color: #2B343D;
+	--github-location-color: #B9C4CD;
+	--github-name-color: #F1F4F6;
+	--github-username-color: #D4DBE1;
+	--github-description-color: #D4DBE1;
+	--github-link-background-color: #35414C;
+	--github-link-border-color: #53616D;
+	--github-stats-title-color: #D4DBE1;
+	--github-stats-value-color: #F1F4F6;
+	--github-icon-color: #A6C9DD;
 }

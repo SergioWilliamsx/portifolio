@@ -1,3 +1,5 @@
+@import "./tokens.css";
+
 .container {
     position: relative;
     display: flex;
@@ -8,7 +10,7 @@
     font-family: "Playfair Display";
     font-size: 14px;
     font-weight: 600;
-    color: #1C2329;
+    color: var(--language-text-color);
 }
 
 .trigger {
@@ -20,7 +22,7 @@
     padding: 12px 8px;
     border: none;
     border-radius: 999px;
-    background-color: #F3F4F6;
+    background-color: var(--language-background-color);
     color: inherit;
     font: inherit;
     cursor: pointer;
@@ -28,12 +30,16 @@
 
 .trigger:focus-visible,
 .item:focus-visible {
-    outline: 2px solid #6080B8;
+    outline: 2px solid var(--language-focus-color);
     outline-offset: 2px;
 }
 
 .arrowOpen {
     transform: rotate(180deg);
+}
+
+.languageIcon {
+    color: var(--language-text-color);
 }
 
 .menu {
@@ -46,10 +52,10 @@
     padding: 4px 0;
     overflow: hidden;
     list-style: none;
-    background-color: #FFFFFF;
-    border: 1px solid #E5E7EB;
+    background-color: var(--language-menu-background-color);
+    border: 1px solid var(--language-menu-border-color);
     border-radius: 8px;
-    box-shadow: 0 8px 24px rgba(36, 43, 53, 0.14);
+    box-shadow: 0 8px 24px var(--language-menu-shadow-color);
 }
 
 .item {
@@ -57,8 +63,8 @@
     width: 100%;
     padding: 8px 12px;
     border: none;
-    background-color: transparent;
-    color: #303449;
+    background-color: var(--language-transparent-color);
+    color: var(--language-item-color);
     font: inherit;
     text-align: left;
     cursor: pointer;
@@ -66,7 +72,7 @@
 
 .item:hover,
 .selected {
-    background-color: #F3F4F6;
+    background-color: var(--language-item-active-background-color);
 }
 
 @media (max-width: 640px) {

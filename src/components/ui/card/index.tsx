@@ -1,4 +1,4 @@
-import styles from  "./styles.module.css"
+import styles from  "./styles/styles.module.css"
 import icon from "../../../../public/cs.png"
 type Props = {
     imgUrl: string;

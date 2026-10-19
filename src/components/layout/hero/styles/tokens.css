@@ -12,8 +12,8 @@
 /* DARK THEME*/
 
 [data-theme="dark"] {
-  --title-font-color: #E8EDF3;
-  --subtitle-font-color: #A3ACBA;
-  --tech-font-color: #C1C9D5;
-  --wib-font-color: #D5DDE8;
+  --title-font-color: #F1F4F6;
+  --subtitle-font-color: #D4DBE1;
+  --tech-font-color: #B9C4CD;
+  --wib-font-color: #D4DBE1;
 }

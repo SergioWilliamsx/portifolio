@@ -1,3 +1,5 @@
+@import "./tokens.css";
+
 .resumeSection {
     display: flex;
     padding: 10px;
@@ -10,7 +12,7 @@
     height: auto;
 
     a {
-        color: black;
+        color: var(--resume-text-color);
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -20,8 +22,8 @@
         border-radius: 10px;
         font-size: 26px;
         font-family: 'playfair display';
-        background-color: #F3ECF8;
-        border: 1px solid #E3DDED;
+        background-color: var(--resume-action-background-color);
+        border: 1px solid var(--resume-action-border-color);
         font-weight: 400;
     }
 }
@@ -34,7 +36,7 @@
     gap: 37px;
 
     button {
-        color: black;
+        color: var(--resume-text-color);
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -44,8 +46,8 @@
         border-radius: 10px;
         font-size: 26px;
         font-family: 'playfair display';
-        background-color: #F3ECF8;
-        border: 1px solid #E3DDED;
+        background-color: var(--resume-action-background-color);
+        border: 1px solid var(--resume-action-border-color);
     }
 }
 
@@ -57,12 +59,12 @@
     gap: 19px;
     h1 {
         font-size: 40px;
-        color: black;
+        color: var(--resume-text-color);
         line-height: 40px;
     }
     p {
         font-size: 26px;
-        color: #686475;
+        color: var(--resume-subtitle-color);
         line-height: 40px;
     }
 }
@@ -87,8 +89,8 @@
     padding: 30px 32px;
     width: 100%;
     height: auto;
-    background-color: #F2ECF9;
-    border: 1px solid #E5E1F2;
+    background-color: var(--resume-card-background-color);
+    border: 1px solid var(--resume-card-border-color);
     border-radius: 10px;
 }
 
@@ -102,7 +104,7 @@
     h3 {
         font-family: 'Playfair Display';
         font-size: 20px;
-        color: #433E4B;
+        color: var(--resume-heading-color);
         line-height: 27px;
         font-weight: 300;
     }
@@ -125,7 +127,7 @@
         h4 {
             font-family: 'Inter';
             font-size: 18px;
-            color: #2D293B;
+            color: var(--resume-role-color);
             line-height: 24px;
             font-weight: 500;
         }
@@ -133,7 +135,7 @@
         h4:nth-child(2) {
             font-family: 'Inter';
             font-size: 18px;
-            color: black;
+            color: var(--resume-text-color);
             line-height: 24px;
             font-weight: 500;
         }
@@ -142,7 +144,7 @@
     p {
         font-family: 'Inter';
         font-size: 18px;
-        color: #5B5466;
+        color: var(--resume-description-color);
         line-height: 24px;
         font-weight: 500;
     }

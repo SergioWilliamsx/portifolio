@@ -24,10 +24,10 @@ export function Skils({lang}: {lang: Lang}) {
     const labels = dict[lang].skills
     const selectedLabels = labels[selectedSkill]
     const cardDetails = [
-        { title: selectedLabels[0], description: selectedLabels[1], icon: <FaDatabase size={41} color="#6F7A91"/> },
-        { title: selectedLabels[2], description: selectedLabels[3], icon: <SiVelocity size={41} color="#6F7A91"/> },
-        { title: selectedLabels[4], description: selectedLabels[5], icon: <MdOutlineSecurity size={41} color="#6F7A91"/> },
-        { title: selectedLabels[6], description: selectedLabels[7], icon: <IoLayersOutline size={41} color="#6F7A91"/> },
+        { title: selectedLabels[0], description: selectedLabels[1], icon: <FaDatabase className={styles.skillIcon} size={41}/> },
+        { title: selectedLabels[2], description: selectedLabels[3], icon: <SiVelocity className={styles.skillIcon} size={41}/> },
+        { title: selectedLabels[4], description: selectedLabels[5], icon: <MdOutlineSecurity className={styles.skillIcon} size={41}/> },
+        { title: selectedLabels[6], description: selectedLabels[7], icon: <IoLayersOutline className={styles.skillIcon} size={41}/> },
     ]
 
     return (
