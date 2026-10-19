@@ -1,3 +1,5 @@
+@import "./tokens.css";
+
 .skilsContainer {
     display: flex;
     flex-direction: column;
@@ -13,7 +15,11 @@
     font-family: 'playfair display';
     font-weight: 300;
     font-size: 45px;
-    color: #303449;
+    color: var(--skills-title-color);
+}
+
+.skillIcon {
+    color: var(--skills-focus-color);
 }
 
 .selectiionSkils {

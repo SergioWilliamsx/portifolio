@@ -1,5 +1,4 @@
 import styles from "./styles/styles.module.css";
-import logo from '../../../../public/logo.svg'
 import "../../../global.css"
 import { dict, type Lang } from "../../../i18n/index.ts"
 import {LanguageSelector} from '../../ui/languageSelector/index.tsx'
@@ -12,7 +11,7 @@ export function Navbar({ lang, onLanguageChange }: { lang: Lang; onLanguageChang
 
     return (
         <div className={styles.container}>
-            <img className={styles.logo} src={logo} />
+            <span className={styles.logo} role="img" aria-label="Sérgio Williams" />
             <button
                 className={styles.menuButton}
                 type="button"

@@ -1,0 +1,35 @@
+[data-theme="light"] {
+	--skills-title-color: #303449;
+	--skills-detail-background-color: #F8F7FE;
+	--skills-detail-border-color: #F2F0FA;
+	--skills-detail-heading-color: #3A3D4B;
+	--skills-detail-description-color: #61637A;
+	--skills-focus-color: #80879B;
+	--skills-focus-background-color: #6E859D;
+	--skills-icon-color: #fff;
+	--skills-selector-color: #505360;
+	--skills-selector-background-color: #F5F5FD;
+	--skills-selector-border-color: #E7E7F2;
+	--skills-selector-active-background-color: #8799B2;
+	--skills-selector-active-border-color: #7C8BA6;
+	--skills-dropdown-background-color: #fff;
+	--skills-dropdown-shadow-color: rgb(48 52 73 / 16%);
+}
+
+[data-theme="dark"] {
+	--skills-title-color: #F1F4F6;
+	--skills-detail-background-color: #2B343D;
+	--skills-detail-border-color: #53616D;
+	--skills-detail-heading-color: #F1F4F6;
+	--skills-detail-description-color: #D4DBE1;
+	--skills-focus-color: #B9C4CD;
+	--skills-focus-background-color: #35414C;
+	--skills-icon-color: #35414C;
+	--skills-selector-color: #D4DBE1;
+	--skills-selector-background-color: #2B343D;
+	--skills-selector-border-color: #53616D;
+	--skills-selector-active-background-color: #78A9C5;
+	--skills-selector-active-border-color: #A6C9DD;
+	--skills-dropdown-background-color: #35414C;
+	--skills-dropdown-shadow-color: rgba(0, 0, 0, 0.28);
+}

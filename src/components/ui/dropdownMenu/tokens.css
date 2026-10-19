@@ -1,0 +1,23 @@
+[data-theme="light"] {
+    --dropdown-selector-border-color: #E7E7F2;
+    --dropdown-selector-color: #505360;
+    --dropdown-selector-background-color: #F5F5FD;
+    --dropdown-active-color: #fff;
+    --dropdown-active-background-color: #8799B2;
+    --dropdown-active-border-color: #7C8BA6;
+    --dropdown-background-color: #fff;
+    --dropdown-shadow-color: rgb(48 52 73 / 16%);
+    --dropdown-transparent-color: transparent;
+}
+
+[data-theme="dark"] {
+    --dropdown-selector-border-color: #53616D;
+    --dropdown-selector-color: #D4DBE1;
+    --dropdown-selector-background-color: #2B343D;
+    --dropdown-active-color: #17212A;
+    --dropdown-active-background-color: #78A9C5;
+    --dropdown-active-border-color: #A6C9DD;
+    --dropdown-background-color: #35414C;
+    --dropdown-shadow-color: rgba(0, 0, 0, 0.28);
+    --dropdown-transparent-color: transparent;
+}

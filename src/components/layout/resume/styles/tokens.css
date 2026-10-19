@@ -1,0 +1,23 @@
+[data-theme="light"] {
+	--resume-text-color: black;
+	--resume-action-background-color: #F3ECF8;
+	--resume-action-border-color: #E3DDED;
+	--resume-subtitle-color: #686475;
+	--resume-card-background-color: #F2ECF9;
+	--resume-card-border-color: #E5E1F2;
+	--resume-heading-color: #433E4B;
+	--resume-role-color: #2D293B;
+	--resume-description-color: #5B5466;
+}
+
+[data-theme="dark"] {
+	--resume-text-color: #F1F4F6;
+	--resume-action-background-color: #35414C;
+	--resume-action-border-color: #53616D;
+	--resume-subtitle-color: #D4DBE1;
+	--resume-card-background-color: #2B343D;
+	--resume-card-border-color: #53616D;
+	--resume-heading-color: #F1F4F6;
+	--resume-role-color: #D4DBE1;
+	--resume-description-color: #B9C4CD;
+}

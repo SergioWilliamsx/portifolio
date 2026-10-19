@@ -13,7 +13,7 @@ export function Alert({ title, description, isExiting = false }: AlertProps) {
             className={`${styles.alert} ${isExiting ? styles.alertExiting : ""}`}
             role="status"
         >
-            <FaRegCheckCircle className={styles.alertIcon} size={15} color="#fff"/>
+            <FaRegCheckCircle className={styles.alertIcon} size={15} />
             <div className={styles.alertContent}>
                 <h3>{title}</h3>
                 <p>{description}</p>

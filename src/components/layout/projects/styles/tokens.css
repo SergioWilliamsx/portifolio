@@ -1,0 +1,7 @@
+[data-theme="light"] {
+	--projects-title-color: #242B35;
+}
+
+[data-theme="dark"] {
+	--projects-title-color: #F1F4F6;
+}

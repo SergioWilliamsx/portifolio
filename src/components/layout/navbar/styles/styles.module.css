@@ -23,8 +23,12 @@
     padding: 0px 9px;
 }
 .logo {
+    display: block;
     width: 49.5px;
-    max-height: 27.5px;
+    height: 27.5px;
+    background-color: var(--logo-color);
+    -webkit-mask: url("/logo.svg") center / contain no-repeat;
+    mask: url("/logo.svg") center / contain no-repeat;
 }
 .menuButton {
     display: none;

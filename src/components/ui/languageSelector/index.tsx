@@ -45,7 +45,7 @@ export function LanguageSelector({ value, onChange }: LanguageSelectorProps) {
         onClick={() => setIsOpen((open) => !open)}
       >
         <span>{selectedLanguage.label}</span>
-      <IoIosArrowDown fontWeight="600" color="#1C2329" className={isOpen ? styles.arrowOpen : ""} aria-hidden="true" />
+      <IoIosArrowDown fontWeight="600" className={`${styles.languageIcon} ${isOpen ? styles.arrowOpen : ""}`} aria-hidden="true" />
       </button>
       {isOpen && (
         <ul className={styles.menu} role="listbox" aria-label="Select language">

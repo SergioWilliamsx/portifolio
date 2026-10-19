@@ -67,10 +67,10 @@ export function ReachOut({ onCopyEmail, labels }: ReachOutProps) {
       </div>
       <footer className={styles.contactFooter}>
         <a href="https://github.com/SergioWilliamsx" className={styles.footerCard} target="_blank" rel="noopener noreferrer">
-          <FaGithub size={25} color="black" />
+          <FaGithub className={styles.contactIcon} size={25} />
         </a>
         <a href="https://www.linkedin.com/in/sergio-williams-a64a922b7" className={styles.footerCard} target="_blank" rel="noopener noreferrer">
-          <FaLinkedin size={25} color="#6080B8" />
+          <FaLinkedin className={styles.linkedinIcon} size={25} />
         </a>
         <a onClick={onCopyEmail} className={styles.footerCard}>
           <MdEmail size={25} />

@@ -1,3 +1,5 @@
+@import "../../styles/tokens.css";
+
 .navContainer {
     display: flex;
     flex-direction: row;
@@ -12,7 +14,7 @@
     }
 
     .focus {
-        color: #80879B;
+        color: var(--skills-focus-color);
         font-family: 'Inter';
         font-weight: 300;
     }
@@ -22,11 +24,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #6E859D;
+    background-color: var(--skills-focus-background-color);
     width: 25px;
     height: 25px;
     border-radius: 5px;
-    color: #fff;
+    color: var(--skills-icon-color);
 }
 
 @media (max-width: 700px) {
