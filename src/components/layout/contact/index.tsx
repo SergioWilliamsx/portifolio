@@ -1,5 +1,5 @@
 import "../../../global.css";
-import styles from "./styles.module.css";
+import styles from "./styles/styles.module.css";
 import { useRef, useState } from "react";
 import { sendEmail } from "../../../services/sendEmail";
 import { ContactAlerts } from "./contact-alerts";

@@ -1,4 +1,4 @@
-import styles from "./styles.module.css"
+import styles from "./styles/styles.module.css"
 import "../../../global.css"
 import { IoSchoolSharp } from "react-icons/io5";
 import { HiOutlineDownload } from "react-icons/hi";

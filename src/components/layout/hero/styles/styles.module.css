@@ -1,3 +1,5 @@
+@import  "./tokens.css";
+
 .heroContainer {
     display: flex;
     justify-content: center;
@@ -10,19 +12,19 @@
   font-family: "Playfair Display", serif;
   font-weight: 600;
   font-size: clamp(2rem, 7vw, 45px);
-  color: #212B35;
+  color: var(--title-font-color);
     margin-bottom: 0px;
 }
 .subtitle {
     margin-top: 19.01px;
     font-weight: 200;
-    color: #60646F;
+    color: var(--subtitle-font-color);
     font-size: clamp(1.1rem, 4vw, 22px);
     text-align: center;
 }
 .tech {
     font-size: clamp(1rem, 3.5vw, 22px);
-    color: #383D4B;
+    color: var(--tech-font-color);
     margin-top: 19.01px;
     text-align: center;
     max-width: 100%;
@@ -32,7 +34,7 @@
     font-weight: 300;
     margin-top: 26.01px;
     font-size: 16px;
-    color: #242D3C
+    color: var(--wib-font-color);
 }
 .btnDisplay {
     display: flex;

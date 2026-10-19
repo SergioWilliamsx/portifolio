@@ -1,0 +1,19 @@
+/* LIGH THEME*/
+[data-theme = "light"] {
+    /* BACKGROUNDS */
+
+    /*TYPOGRAPHY*/
+    --title-font-color: #212B35;
+    --subtitle-font-color: #60646F;
+    --tech-font-color: #383D4B;
+    --wib-font-color: #242D3C;
+}
+
+/* DARK THEME*/
+
+[data-theme="dark"] {
+  --title-font-color: #E8EDF3;
+  --subtitle-font-color: #A3ACBA;
+  --tech-font-color: #C1C9D5;
+  --wib-font-color: #D5DDE8;
+}

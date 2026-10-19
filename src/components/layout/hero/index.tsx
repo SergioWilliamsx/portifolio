@@ -1,4 +1,4 @@
-import styles from "./styles.module.css";
+import styles from "./styles/styles.module.css";
 import "../../../global.css"
 import {Button} from "../../ui/button/index.tsx"
 import { dict, type Lang } from "../../../i18n/index.ts"

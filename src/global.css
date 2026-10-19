@@ -6,6 +6,15 @@
 
 @custom-variant dark (&:is(.dark *));
 
+[data-theme="dark"] {
+  --background-image: url("/darkbg1.jpg");
+}
+
+[data-theme="light"] {
+  --background-image: url("/bg1.png");
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -22,7 +31,7 @@ html, body {
 }
 
 body {
-  background-image: url("/portifolio/bg1.png");
+  background-image: var(--background-image);
   background-repeat: repeat-y;
   background-position: center top;
   background-size: 100% auto;

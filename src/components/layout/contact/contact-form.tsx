@@ -1,7 +1,7 @@
 import type { FormEvent, RefObject } from "react";
 import { FaUser } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import styles from "./styles.module.css";
+import styles from "./styles/styles.module.css";
 
 type ContactLabels = {
   formTitle: string;

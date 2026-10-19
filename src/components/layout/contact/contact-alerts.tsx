@@ -1,4 +1,4 @@
-import styles from "./styles.module.css";
+import styles from "./styles/styles.module.css";
 import { Alert } from "../../ui/alert";
 import type { AlertMessage } from "./types";
 

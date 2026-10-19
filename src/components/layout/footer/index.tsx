@@ -1,4 +1,4 @@
-import styles from "./styles.module.css";
+import styles from "./styles/styles.module.css";
 import "../../../global.css";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";

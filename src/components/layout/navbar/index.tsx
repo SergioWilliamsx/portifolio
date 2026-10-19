@@ -1,4 +1,4 @@
-import styles from "./styles.module.css";
+import styles from "./styles/styles.module.css";
 import logo from '../../../../public/logo.svg'
 import "../../../global.css"
 import { dict, type Lang } from "../../../i18n/index.ts"

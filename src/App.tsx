@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import {Hero} from "./components/layout/hero/index";
 import {Navbar} from "./components/layout/navbar/index"
 import {Projects} from "./components/layout/projects/index"
@@ -11,6 +12,10 @@ import {Skils} from './components/layout/skills/index'
 
 export function App() {
   const [lang, setLang] = useState<Lang>("pt-BR");
+
+  useEffect(() => {
+    document.documentElement.dataset.theme = "light";
+  }, []);
 
   return (
     <div
@@ -34,4 +39,3 @@ export function App() {
     </div>
   )
 }
-import { useState } from "react";
