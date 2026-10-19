@@ -14,7 +14,7 @@ export function App() {
   const [lang, setLang] = useState<Lang>("pt-BR");
 //ola
   useEffect(() => {
-    document.documentElement.dataset.theme = "light";
+    document.documentElement.dataset.theme = "dark";
   }, []);
 
   return (
