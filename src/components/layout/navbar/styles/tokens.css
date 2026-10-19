@@ -1,0 +1,21 @@
+/* light */
+[data-theme="light"] {
+    --heading-background-color: blueviolet;
+    --container-border-color: black;
+    --menu-button-background-color: transparent;
+    --menu-button-span-color: #242b35;
+    --link-color: inherit;
+    --menu-background-color: rgba(255, 255, 255, 0.98);
+    --menu-shadow-color: rgba(36, 43, 53, 0.14);
+}
+
+/* dark */
+[data-theme="dark"] {
+    --heading-background-color: blueviolet;
+    --container-border-color: black;
+    --menu-button-background-color: transparent;
+    --menu-button-span-color: #242b35;
+    --link-color: inherit;
+    --menu-background-color: rgba(255, 255, 255, 0.98);
+    --menu-shadow-color: rgba(36, 43, 53, 0.14);
+}
