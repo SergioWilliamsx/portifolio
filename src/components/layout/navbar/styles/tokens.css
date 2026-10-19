@@ -8,6 +8,11 @@
     --menu-background-color: rgba(255, 255, 255, 0.98);
     --menu-shadow-color: rgba(36, 43, 53, 0.14);
     --logo-color: #242b35;
+    --theme-toggle-border-color: rgba(32, 47, 67, 0.35);
+    --theme-toggle-color: #202f43;
+    --theme-toggle-background-color: rgba(255, 255, 255, 0.45);
+    --theme-toggle-hover-background-color: rgba(255, 255, 255, 0.8);
+    --theme-toggle-focus-color: #202f43;
 }
 
 /* dark */
@@ -20,4 +25,9 @@
     --menu-background-color: rgba(43, 52, 61, 0.98);
     --menu-shadow-color: rgba(0, 0, 0, 0.28);
     --logo-color: green;
+    --theme-toggle-border-color: rgba(255, 255, 255, 0.35);
+    --theme-toggle-color: #f5f0e8;
+    --theme-toggle-background-color: rgba(18, 24, 34, 0.5);
+    --theme-toggle-hover-background-color: rgba(18, 24, 34, 0.85);
+    --theme-toggle-focus-color: #f5f0e8;
 }

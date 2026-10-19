@@ -2,6 +2,7 @@ import styles from "./styles/styles.module.css";
 import "../../../global.css"
 import { dict, type Lang } from "../../../i18n/index.ts"
 import {LanguageSelector} from '../../ui/languageSelector/index.tsx'
+import { ThemeButton } from './components/theme_button/index.tsx'
 import { useState } from "react";
 
 export function Navbar({ lang, onLanguageChange }: { lang: Lang; onLanguageChange: (lang: Lang) => void }) {
@@ -30,6 +31,7 @@ export function Navbar({ lang, onLanguageChange }: { lang: Lang; onLanguageChang
                     </li>
                 ))}
                 <LanguageSelector value={lang} onChange={onLanguageChange} />
+                <ThemeButton />
             </ul>
         </div>
     )
