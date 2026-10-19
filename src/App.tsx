@@ -12,7 +12,7 @@ import {Skils} from './components/layout/skills/index'
 
 export function App() {
   const [lang, setLang] = useState<Lang>("pt-BR");
-
+//ola
   useEffect(() => {
     document.documentElement.dataset.theme = "light";
   }, []);
