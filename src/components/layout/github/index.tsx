@@ -116,7 +116,7 @@ export function Github({ lang }: { lang: Lang }) {
             <article className={styles.statscard}>
               <h1>{labels[0]} {user.repositories}</h1>
               <a href={user.link} target="_blank" rel="noreferrer">
-                <FaGithub size={32} color="#4B4856" />
+                <FaGithub className={styles.githubIcon} size={32} />
               </a>
             </article>
             <article className={styles.statscard}>
